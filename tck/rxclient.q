@@ -1,9 +1,9 @@
 quark 1.0;
 use rxlib.q;
 
-import rxlib;
 import quark.concurrent;
 import quark.logging;
+import rxlib;
 
 class Printer extends Requester {
 
