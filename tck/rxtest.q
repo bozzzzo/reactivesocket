@@ -1,3 +1,4 @@
+quark 1.0;
 package rxtest 0.1.0;
 
 use rxlib.q;

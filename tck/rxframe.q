@@ -1,3 +1,5 @@
+quark 1.0;
+
 namespace rxlib {
 
     class Frame {

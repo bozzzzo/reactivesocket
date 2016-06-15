@@ -1,3 +1,5 @@
+quark 1.0;
+
 namespace rxlib {
 
     class RXHandler extends WSHandler, FrameSender {
@@ -28,8 +30,8 @@ namespace rxlib {
             endpoint.onConnect();
         }
 
-        void onWSError(WebSocket socket) {
-            log.error(socket.toString());
+        void onWSError(WebSocket socket, WSError error) {
+            log.error(socket.toString() + " " + error.toString());
         }
 
         void onWSClosed(WebSocket socket) {

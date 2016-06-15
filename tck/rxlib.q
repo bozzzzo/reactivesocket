@@ -1,3 +1,4 @@
+quark 1.0;
 package rxlib 0.1.0;
 
 include rxframe.q;
